@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Build a Technical Documentation Page</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media-query.css">
 </head>
 <body>
   
@@ -13,11 +16,56 @@
     <main id="main-doc">
 
       <section classs="main-section">
-        <header id="one">
-          header main-section
+
+        <header id="animation">
+          <h2>animations e transitions</h2>
         </header>
+        
         <article class="main-article"><!-- p - ul - code -->
-          article main-articles
+          
+          <p>
+            CSS allows animation of HTML elements without using JavaScript or Flash!
+          </p>
+
+          <ul>
+              <li>@keyframes</li>
+              <li>animation-name</li>
+              <li>animation-duration</li>
+              <li>animation-delay</li>
+              <li>animation-iteration-count</li>
+              <li>animation-direction</li>
+              <li>animation-timing-function</li>
+              <li>animation-fill-mode</li>
+              <li>animation</li>
+        </ul>
+
+        <div class="article-code">
+        
+          <p>/* The animation code */</p>
+
+         
+            <code>
+          @keyframes example {
+            from {background-color: red;}
+            to {background-color: yellow;}
+          }
+            </code>
+          
+          <p>/* The element to apply the animation to */</p>
+
+          
+            <code>
+          div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+          }
+            </code>
+          
+        </div>
+
         </article>
       </section><!-- end section -->
 
@@ -30,7 +78,7 @@
       </header>
 
       <section class="nav-section">
-      <a href="one">link one</a>
+        <a href="#animation">animation e transition</a>
       </section> <!-- end section -->
 
     </nav><!-- end nav -->

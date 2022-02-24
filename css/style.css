@@ -1,0 +1,58 @@
+:root {
+  --blue: #0000ff;
+  --black: #000000;
+  --white: #ffffff;
+  --code: #dcdcdc;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+}
+
+/* --- global ---- */
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+a { 
+  text-decoration: none;
+  color: var(--blue);
+
+}
+
+code {
+  background-color: #dcdcdc;
+  line-height: 2.0;
+  margin: 10px;
+  padding: 5px;
+  position: relative;
+  word-break: normal;
+  word-spacing: pre-line;
+  word-wrap: normal;
+}
+
+/* --- layout --- */
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+/* -- main-doc--  */
+#main-doc {}
+/* -- nav-bar --  */
+#nav-bar {}
