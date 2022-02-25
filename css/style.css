@@ -55,4 +55,11 @@ code {
 /* -- main-doc--  */
 #main-doc {}
 /* -- nav-bar --  */
-#nav-bar {}
+#nav-bar {
+}
+
+.nav-header {}
+.nav-section {
+  display: flex;
+  flex-direction: column;
+} 
