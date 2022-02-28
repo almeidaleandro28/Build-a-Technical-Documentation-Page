@@ -1,6 +1,7 @@
 /* --- fonts --- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+/*  */
 :root {
   --blue: #0000ff;
   --black: #000000;
@@ -69,6 +70,7 @@ code {
 .container {
   display: flex;
   flex-direction: row-reverse;
+  width: 90%;
 }
 
 /* -- main-doc--  */
@@ -88,3 +90,36 @@ code {
   display: flex;
   flex-direction: column;
 } 
+
+.nav-section a {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid var(--black);
+}
+
+.nav-section a:hover {
+  background-color: #aaa6a6;
+  cursor: pointer;
+  color: var(--black);
+}
+
+/* --- media queries --- */
+@media screen and ( max-width: 768px ) {
+  /* cpntainer */
+  .container {
+    display: flex;
+    flex-direction: column-reverse; 
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  #nav-bar {
+    text-align: center;
+    border: none;
+    
+  }
+
+  .nav-section {
+    overflow: scroll;
+  }
+}
