@@ -1,8 +1,15 @@
+/* --- fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 :root {
   --blue: #0000ff;
   --black: #000000;
   --white: #ffffff;
   --code: #dcdcdc;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
 }
 
 *{
@@ -12,19 +19,32 @@
 
 body, html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
   height: 100%;
 }
 
 /* --- global ---- */
 h1 {
-  font-size: 36px;
+  font-size: 3.052rem;
+  font-weight: var(--light);
+  /* letter-spacing: 1.5; */
+  margin-bottom: 15px;
+
 }
 h2 {
-  font-size: 24px;
+  font-size: 2.441rem;
+  font-weight: var(--light);
+  /* letter-spacing: -0.5; */
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 1.563px;
+  font-weight: var(--regular);
+  /* letter-spacing: 0; */
+  margin-bottom: 15px;
+  
 }
 
 a { 
@@ -49,16 +69,21 @@ code {
 .container {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
 }
 
 /* -- main-doc--  */
-#main-doc {}
+#main-doc {
+  flex: 2;
+}
 /* -- nav-bar --  */
 #nav-bar {
+  border-right: 1px solid black;
+  margin-right: 10px;
+
 }
 
 .nav-header {}
+
 .nav-section {
   display: flex;
   flex-direction: column;
