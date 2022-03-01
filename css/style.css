@@ -63,6 +63,7 @@ code {
   word-break: normal;
   word-spacing: pre-line;
   word-wrap: normal;
+  padding: 10px;
 }
 
 ul {
@@ -70,6 +71,11 @@ ul {
   margin-top: 15px;
 }
 ul li {}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 /* --- layout --- */
 
