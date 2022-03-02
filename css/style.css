@@ -110,7 +110,9 @@ p {
 .nav-section a {
   padding-bottom: 15px;
   padding-top: 15px;
+  padding-left: 15px;
   border-bottom: 1px solid var(--black);
+
 }
 
 .nav-section a:hover {
