@@ -58,23 +58,23 @@ code {
   background-color: #dcdcdc;
   line-height: 2.0;
   margin: 10px;
-  padding: 5px;
+  padding: 10px;
   position: relative;
   word-break: normal;
   word-spacing: pre-line;
   word-wrap: normal;
-  padding: 10px;
 }
 
 ul {
+  list-style: disc;
   margin-bottom: 15px;
   margin-top: 15px;
-  list-style: circle;
-  padding-left: 10px;
+  padding-left: 35px;
 }
 ul li {
   
 }
+
 
 p {
   margin-top: 5px;
